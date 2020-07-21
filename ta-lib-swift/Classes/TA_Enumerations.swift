@@ -7,7 +7,7 @@
 //
 
 
-
+import Foundation
 
 
 public enum TA_CandleSettingType: Int
