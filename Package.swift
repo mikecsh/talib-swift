@@ -3,6 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "TALibSwift",
+    path: "ta-lib-swift/Classes",
     products: [
         .library(name: "TALibSwift", targets: ["TALibSwift"]),
     ],
