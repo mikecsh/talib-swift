@@ -3,14 +3,13 @@ import PackageDescription
 
 let package = Package(
     name: "TALibSwift",
-    path: "ta-lib-swift/Classes",
     products: [
         .library(name: "TALibSwift", targets: ["TALibSwift"]),
     ],
     dependencies: [
     ],
     targets: [
-        .target(name: "TALibSwift", dependencies: []),
+        .target(name: "TALibSwift", dependencies: [], path: "ta-lib-swift", sources: ["Classes"]),
   //      .testTarget(name: "AppTests", dependencies: ["App"])
     ]
 )
