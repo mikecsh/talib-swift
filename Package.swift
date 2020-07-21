@@ -2,7 +2,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "talib-swift",
+    name: "TALibSwift",
+    products: [
+        .library(name: "TALibSwift", targets: ["TALibSwift"]),
+    ],
     dependencies: [
     ],
     targets: [
